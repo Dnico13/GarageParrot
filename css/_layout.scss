@@ -1,6 +1,7 @@
 // page d acceuil
 body {
     background-color: $background-color;
+    font-size: 2.5rem;
 }
 
 .titleBeginn {
@@ -9,4 +10,15 @@ body {
     font-size: 2.25rem;
     font-weight: 400;
     line-height: normal;
+}
+
+//header
+
+.headerMenu{
+    display: flex;
+    width: 19.75rem;
+    height: 4.77863rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }

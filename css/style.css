@@ -1,8 +1,12 @@
 .logoPic {
   border-radius: 17.4375rem;
-  border: Solid 3px #DBBC19;
+  border: Solid 4px #DBBC19;
   width: 17.4375rem;
   height: 17.4375rem;
+}
+
+.logoPic:hover {
+  border: white solid 4px;
 }
 
 .containerAcceuil {
@@ -14,8 +18,44 @@
   gap: 10.25rem;
 }
 
+.footer {
+  width: 24.5625rem;
+  height: 4.158rem;
+  flex-shrink: 0;
+  background-color: #6D7F98;
+}
+
+.Contactbutton {
+  background-color: #421B25;
+  border-radius: 1.875rem;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 3.6875rem;
+  height: 1.36531rem;
+  flex-shrink: 0;
+  border-radius: 1.875rem;
+  border: 1px solid #000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Contactbutton:hover {
+  border: 1px solid white;
+}
+
+.IconeHeader {
+  width: 4.875rem;
+  height: 4.77863rem;
+  flex-shrink: 0;
+}
+
 body {
   background-color: var(--fond-parrot, #2E71AE);
+  font-size: 2.5rem;
 }
 
 .titleBeginn {
@@ -24,4 +64,13 @@ body {
   font-size: 2.25rem;
   font-weight: 400;
   line-height: normal;
+}
+
+.headerMenu {
+  display: flex;
+  width: 19.75rem;
+  height: 4.77863rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }/*# sourceMappingURL=style.css.map */
