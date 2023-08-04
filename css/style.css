@@ -1,3 +1,49 @@
+body {
+  background-color: var(--fond-parrot, #2E71AE);
+  font-size: 1.75rem;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.titleBeginn {
+  color: #DBBC19;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10% justify-content space-around;
+}
+
+.headerMenu {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.fontMenu {
+  color: #DBBC19;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  height: 4.158rem;
+  background-color: #6D7F98;
+  display: flex;
+  font-size: 1rem;
+  flex-direction: row;
+}
+
 .logoPic {
   border-radius: 17.4375rem;
   border: Solid 4px #DBBC19;
@@ -18,26 +64,18 @@
   gap: 10.25rem;
 }
 
-.footer {
-  width: 24.5625rem;
-  height: 4.158rem;
-  flex-shrink: 0;
-  background-color: #6D7F98;
-}
-
-.Contactbutton {
+.ContactButton {
   background-color: #421B25;
   border-radius: 1.875rem;
   color: #FFF;
   text-align: center;
   font-family: Inter;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 3.6875rem;
-  height: 1.36531rem;
-  flex-shrink: 0;
+  width: 4.6875rem;
+  height: 2.36531rem;
   border-radius: 1.875rem;
   border: 1px solid #000;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -47,30 +85,9 @@
   border: 1px solid white;
 }
 
-.IconeHeader {
+.LogoHeader {
   width: 4.875rem;
   height: 4.77863rem;
-  flex-shrink: 0;
-}
-
-body {
-  background-color: var(--fond-parrot, #2E71AE);
-  font-size: 2.5rem;
-}
-
-.titleBeginn {
-  color: #DBBC19;
-  font-family: Inter;
-  font-size: 2.25rem;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.headerMenu {
-  display: flex;
-  width: 19.75rem;
-  height: 4.77863rem;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
+  border-radius: 8.5rem;
+  border: 2px solid #DBBC19;
 }/*# sourceMappingURL=style.css.map */

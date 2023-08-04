@@ -20,28 +20,21 @@
 }
 // footer
 
-.footer{
-  width: 24.5625rem;
-  height: 4.158rem;
-  flex-shrink: 0;
 
-  background-color: $colorbackgroundfooter;
-}
-
-.Contactbutton{
+.ContactButton{
   background-color: $colorButtonContact;
   border-radius: 1.875rem;
   color: #FFF;
   text-align: center;
   font-family: Inter;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 
-  width: 3.6875rem;
-  height: 1.36531rem;
-  flex-shrink: 0;
+  width: 4.6875rem;
+  height: 2.36531rem;
+  
 
   border-radius: 1.875rem;
   border: 1px solid #000;
@@ -55,9 +48,9 @@
 
 //header
 
-.IconeHeader{
-  width: 4.875rem;
+.LogoHeader {
+  width: 4.875rem;;
   height: 4.77863rem;
-  flex-shrink: 0;
-
+  border-radius: 8.5rem;
+  border:  2px solid $colorFontMain
 }
