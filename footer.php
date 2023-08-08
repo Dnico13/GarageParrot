@@ -7,7 +7,8 @@
     
     
     
-    <div class="horaires">
+    <div class="horaires"> 
+        <span>Horaires d'ouverture:</span>
         <div>
             <p>Lundi: 9h-12h/14h-18h</p>
             <p> Mardi: 9h-12h/14h-18h</p>

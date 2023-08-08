@@ -1,31 +1,42 @@
-// page d acceuil
+// first page :index.php
 body {
     background-color: $background-color;
-    font-size: 1.75rem;
+    font-size: x-large;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    //justify-content: space-around;
+}
+h1{
+  color: $colorFontMain;
+  text-align: center;
+  font-size: xx-large;
 }
 
 .titleBeginn {
     color : $colorFontMain;
     font-family: Inter;
-    font-size: 2rem;
+    //font-size: 2rem;
     font-weight: 400;
     line-height: normal;
 }
 
 //header
+.LogoHeader {
+  width: 4.875rem;
+  height: 4.77863rem;
+}
 
 .navbar{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 10%
-    justify-content space-around;  
+    height: 8.2%;
+    margin-bottom: 1%;
+    
+      
     
 }
 .headerMenu{
@@ -38,6 +49,18 @@ body {
     color: $colorFontMain;
     text-decoration: none;
 }
+//button Nav Mobile
+
+.navBarMobile{
+  display: flex;
+  justify-content: end;
+  width: 90%;
+}
+
+
+
+
+
 
 //footer
 
@@ -62,6 +85,10 @@ footer{
     align-items: center;
     width: 100%;
   }
+  .horaires span {
+    text-decoration: underline;
+
+  }
 
   //temoignage:
 
@@ -69,17 +96,65 @@ footer{
     color: #000;
     text-align: center;
     font-family: Inter;
-    font-size: 0.875rem;
+    font-size: 0.85rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 
     width: 80%;
-    height: 30%;
-    flex-shrink: 0;
+    height: 6.6875rem;
     border-radius: 1.25rem;
     background: var(--fond-image-commentaire, rgba(217, 217, 217, 0.50));
     justify-content: center;
     margin-left: 10%;
+    margin-bottom: 3%;
+
+  }
+  .colorfonttemoignage{
+    color: $colorfonttemoignage;
+    font-size: 0.85rem;
+  }
+
+  // Page Presentation des prestations:
+  .containerPrestation{
+    margin-top: 1%;
+  }
+  .containerPrestation img{
+    
+    border-radius: 1.25rem;
+    border: 2px solid $colorBorderPic;
+    width: 22%;
+    height: 23.26%;
+    
+  }
+  .containerPrestation1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .containerPrestation1 img{
+    position: relative;
+    right: 5%;
+    flex-shrink: 0;
+  }
+
+  .containerReparation2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .containerventevehicule3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5%;
+
 
   }

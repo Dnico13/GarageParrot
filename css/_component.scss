@@ -4,6 +4,9 @@
     border: Solid 4px #DBBC19;
     width: 17.4375rem;
     height: 17.4375rem;
+    
+
+    
     }
   .logoPic:hover {border: $colorhover solid 4px;}
     
@@ -49,8 +52,16 @@
 //header
 
 .LogoHeader {
-  width: 4.875rem;;
-  height: 4.77863rem;
+  
   border-radius: 8.5rem;
   border:  2px solid $colorFontMain
+}
+
+// header nav mobile
+
+.colorfontnavmobile{
+color: $colorFontMain;
+border-radius: 1.25rem;
+
+
 }

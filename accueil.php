@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="...">
+    <meta name="description" content="Page de descriptions des differentes activités proposés par le garage Parrot.">
 
-    <title>Garage Parot: Garage automobile dans la région toulousaine.</title>
+    <title>Garage Parot: Garage automobile situé dans la région toulousaine.</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./asset/iconeGarageParrot.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
@@ -21,14 +21,29 @@
             ?>
     </header>
     <main>
-        <h1>        
-            
+        <h1 class="hprestation">        
+             Nos Prestations
         </h1>
-        <article>
-            <?php
-                include_once 'temoignage.php';
-            ?>
-        </article>
+        <div class="containerPrestation">
+                <article class="containerPrestation1">
+                    <img src="./asset/VisuelRoue.JPG" alt="visuel d'illustration d une roue de voiture monter sur un pont">
+                    <h3>Services</h3>
+                </article>
+                <article class="containerReparation2">
+                    <img src="./asset/VisuelReparations.JPG" alt="visuel d'illustration d une reparation d un vehicule">
+                    <h3>Réparations</h3>
+                </article>
+                <article class="containerventevehicule3">
+                    <img src="./asset/VisuelVenteVehicules.JPG" alt="Visuel d un parc de vehicule d'occassions a vendre">
+                    <h3>Ventes Vehicules</h3>        
+                </article>
+        </div>
+
+        <section>
+                <?php
+                    include 'temoignage.php';
+                ?>
+        </section>
     </main>
     <footer>
             <?php
