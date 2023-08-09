@@ -21,20 +21,27 @@
             ?>
     </header>
     <main>
-        <h1 class="hprestation">        
+        <!--<h1 class="hprestation">        
              Nos Prestations
         </h1>
+-->
         <div class="containerPrestation">
                 <article class="containerPrestation1">
-                    <img src="./asset/VisuelRoue.JPG" alt="visuel d'illustration d une roue de voiture monter sur un pont">
+                    <a href="services.php">
+                        <img src="./asset/VisuelRoue.JPG" alt="visuel d'illustration d une roue de voiture monter sur un pont">
+                    </a>
                     <h3>Services</h3>
                 </article>
                 <article class="containerReparation2">
-                    <img src="./asset/VisuelReparations.JPG" alt="visuel d'illustration d une reparation d un vehicule">
+                    <a href="reparations.php">    
+                        <img src="./asset/VisuelReparations.JPG" alt="visuel d'illustration d une reparation d un vehicule">
+                    </a>
                     <h3>Réparations</h3>
                 </article>
                 <article class="containerventevehicule3">
-                    <img src="./asset/VisuelVenteVehicules.JPG" alt="Visuel d un parc de vehicule d'occassions a vendre">
+                    <a href="ventes.php">
+                        <img src="./asset/VisuelVenteVehicules.JPG" alt="Visuel d un parc de vehicule d'occassions a vendre">
+                    </a>
                     <h3>Ventes Vehicules</h3>        
                 </article>
         </div>

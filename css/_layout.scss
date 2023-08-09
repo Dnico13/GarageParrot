@@ -1,13 +1,19 @@
 // first page :index.php
-body {
-    background-color: $background-color;
-    font-size: x-large;
+html {
     width: 100%;
     height: 100%;
-    box-sizing: border-box;
+    
+body{
     display: flex;
     flex-direction: column;
-    //justify-content: space-around;
+    justify-content: space-between;
+    background-color: $background-color;
+    font-size: x-large;
+    box-sizing: border-box;
+    min-height: 100%;
+    
+}
+
 }
 h1{
   color: $colorFontMain;
@@ -81,9 +87,10 @@ footer{
   .horaires{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
-    width: 100%;
+    width: 80%;
+    font-size: smaller;
   }
   .horaires span {
     text-decoration: underline;
@@ -117,7 +124,8 @@ footer{
 
   // Page Presentation des prestations:
   .containerPrestation{
-    margin-top: 1%;
+    //margin-top: 1%;
+    margin-bottom: 2%;
   }
   .containerPrestation img{
     
