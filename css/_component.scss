@@ -4,23 +4,12 @@
     border: Solid 4px #DBBC19;
     width: 17.4375rem;
     height: 17.4375rem;
-    
-
-    
     }
   .logoPic:hover {border: $colorhover solid 4px;}
     
     
     
-.containerAcceuil{
-    display: flex;
-    
-    padding: 10rem 3rem 4.875rem 2.9375rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10.25rem;
-}
+
 // footer
 
 
@@ -62,6 +51,34 @@
 .colorfontnavmobile{
 color: $colorFontMain;
 border-radius: 1.25rem;
+}
+
+//accueil
+.containerPrestation a{
+  text-decoration: none;
+  
+}
+//Services:
+
+.roue{
+  width: 25%;
+  height: auto;
+  border-radius: 20px;
+  border: 2px solid $colorBorderPic;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  text-align: center;
+  margin-left: 2%;
+  
+}
+//reparations:
 
 
+.capot{
+  width: 25%;
+  height: auto;
+  border-radius: 20px;
+  border: 2px solid $colorBorderPic;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  text-align: center;
+  margin-left: 2%;
 }
