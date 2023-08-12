@@ -16,8 +16,8 @@
       
                 <ul class="dropdown-menu navBarMobileMenu" aria-labelledby="dropdownMenuButton1">
                 <li><a class="dropdown-item" href="services.php">- Services -</a></li>
-                <li><a class="dropdown-item" href="Reaprations.php">- Réparations -</a></li>
-                <li><a class="dropdown-item" href="VenteVO.php">- Ventes de véhicules -</a></li>
+                <li><a class="dropdown-item" href="reparations.php">- Réparations -</a></li>
+                <li><a class="dropdown-item" href="Ventes.php">- Ventes de véhicules -</a></li>
                 <li><a class="dropdown-item" href="connexion.php">- Connexion -</a></li>
                 </ul>
             </div>  

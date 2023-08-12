@@ -23,16 +23,19 @@
     </header>
     <main>
         <article>
-            <h1>Réparations</h1>
-            <div>
-                <img src="./asset/VisuelReparations.JPG" class="capot">
+            <div class="containerreparations">
+                <h1>Réparations</h1>
+                    <div class="containerreparation1">
+                        <div>
+                            <img src="./asset/VisuelReparations.JPG" class="capot">
+                        </div>
+                        <ul class="ListReparations">
+
+                        </ul>
+                    </div>
+
+
             </div>
-            <ul class="ListReparations">
-
-            </ul>
-
-
-
         </article>
 
 

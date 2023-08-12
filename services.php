@@ -23,14 +23,17 @@
     </header>
     <main>
         <article>
-            <h1>Services</h1>
-            <div>
-                <img src="./asset/VisuelRoue.JPG" class="roue">
-            </div>
-            <ul class="listeServices">
+            <div class="servicescontainer">
+                <h1>Services</h1>
+                    <div class="servicecontainer1">
+                        <div>
+                            <img src="./asset/VisuelRoue.JPG" class="roue">
+                        </div>
+                        <ul class="listeServices">
                 
-            </ul>
-
+                        </ul>
+                    </div>
+            </div>
 
         </article>
         <section>
