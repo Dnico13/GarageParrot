@@ -1,0 +1,29 @@
+.mainconnexion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerconnexion{
+    background-color: $colorbackgroundmain;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 2%;
+    margin-top: auto;
+    width: 60%;
+    height: auto;
+}
+.containerconnexion input{
+    width: 75%;
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.containerconnexion button{
+
+    border-radius: 20px;
+    margin-left: 60%;
+}
+.containerconnexion label{
+    margin-top: 1%;
+}

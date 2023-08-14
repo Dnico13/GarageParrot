@@ -20,11 +20,12 @@
             <?php
                 include_once 'header.php';
             ?>
+            <h1>Services</h1>
     </header>
     <main>
         <article>
             <div class="servicescontainer">
-                <h1>Services</h1>
+                
                     <div class="servicecontainer1">
                         <div>
                             <img src="./asset/VisuelRoue.JPG" class="roue">

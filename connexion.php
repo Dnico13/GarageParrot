@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="liste des differentes reparations que propose le Garage Parrot à Toulouse.">
+    <meta name="description" content="page de connexion du site du garage Parrot">
 
     <title>Garage Parot: Garage automobile dans la région toulousaine.</title>
 
@@ -20,29 +20,27 @@
             <?php
                 include_once 'header.php';
             ?>
-            <h1>Réparations</h1>
+            <h1>Formulaire de Connexion</h1>
     </header>
-    <main>
-        <article>
-            <div class="containerreparations">
-                
-                    <div class="containerreparation1">
-                        <div>
-                            <img src="./asset/VisuelReparations.JPG" class="capot">
-                        </div>
-                        <ul class="ListReparations">
-
-                        </ul>
+    
+    
+    <main class="mainconnexion">
+        <form class="containerconnexion">
+            <div class="row mb-3 form2">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
+                    <div class="col-sm-10 ">
+                        <input type="email" class="form-control" id="inputEmail3">
                     </div>
-
-
             </div>
-        </article>
-        <section>
-            <?php
-                    include 'temoignage.php';
-             ?>
-        </section>
+
+            <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Password:</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword3">
+                    </div>
+            </div>
+        <button type="submit" class="btn btn-primary">Connexion</button>
+        </form>
 
     </main>
     <footer>
@@ -51,7 +49,6 @@
             ?>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="./js/listReparations.js"></script>
-
+    <script src="app.js"></script>
 </body>
 </html>

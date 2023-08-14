@@ -1,7 +1,8 @@
 // first page :index.php
 html {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+    
 }  
 body{
     display: flex;
@@ -11,12 +12,25 @@ body{
     font-size: x-large;
     box-sizing: border-box;
     min-height: 100%;
+    //width: 100%;
+    //height: 100%;
+    
     
 }
-
-
+header{
+  //width: 100%;
+  //height: 10%;
+}
+footer{
+  //width: 100%;
+  //height: 10%;
+}
+main{
+  //width: 100%;
+  //height: 70%;
+}
 h1{
-  color: $colorFontMain;
+  color: $colorfontH1;
   text-align: center;
   font-size: xx-large;
 }

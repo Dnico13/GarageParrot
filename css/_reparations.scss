@@ -16,5 +16,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-
+}
+.ListReparations{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
 }

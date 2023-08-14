@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  color: #DBBC19;
+  color: white;
   text-align: center;
   font-size: xx-large;
 }
@@ -291,6 +291,11 @@ footer {
     width: 200px;
     height: auto;
   }
+  .formcontact1 {
+    width: 40%;
+    height: 50%;
+    margin-left: 30%;
+  }
 }
 .capot {
   width: 25%;
@@ -308,6 +313,13 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.ListReparations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
 }
 
 .servicescontainer {
@@ -329,4 +341,68 @@ footer {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
   text-align: center;
   margin-left: 2%;
+}
+
+.mainconnexion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerconnexion {
+  background-color: #D9D9D9;
+  text-align: center;
+  border-radius: 20px;
+  padding-bottom: 2%;
+  margin-top: auto;
+  width: 60%;
+  height: auto;
+}
+
+.containerconnexion input {
+  width: 75%;
+  border-radius: 20px;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+.containerconnexion button {
+  border-radius: 20px;
+  margin-left: 60%;
+}
+
+.containerconnexion label {
+  margin-top: 1%;
+}
+
+.formcontact {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: #D9D9D9;
+  padding: 2%;
+  margin-left: 5%;
+  border-radius: 20px;
+}
+
+.divformcontact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.validcontact {
+  background-color: var(--fond-parrot, #2E71AE);
+  align-self: flex-end;
+  border-radius: 20px;
+}
+
+.formcontact input {
+  border-radius: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.formcontact textarea {
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
