@@ -5,8 +5,6 @@
         </a>
     </button>
     
-    
-    
     <div class="horaires"> 
         <span>Horaires d'ouverture:</span>
         <div>
@@ -23,4 +21,11 @@
         </div>
             <p>Dimanche: FERME</p>
     </div>
+
+    <button class="buttoncommentaire">
+        <a class="btncommentaire" href="commentaire.php">
+            Laissez un commentaire.
+        </a>
+    </button>
+
 </div>

@@ -38,7 +38,7 @@
                         </div>              
                 </div>
 
-                <div class="divformcontact"    >
+                <div class="divformcontact">
                     <label for="email">Email:</label>
                         <div>
                             <input type="email" name="email" id="email" require><br>
@@ -53,9 +53,9 @@
                 </div>
                 <div class="divformcontact">
                     <label for="commentaire"></label>
-                        <div>
+                        
                             <textarea name="commentaire" id="commentaire" cols="28" rows="5" require>Message...</textarea><br>   
-                        </div>
+                        
                 </div>
                 <button  type="submit" class="validcontact" name="submit">Envoyer</button>
             </form>
