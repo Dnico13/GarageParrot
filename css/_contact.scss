@@ -15,16 +15,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    //overflow: hidden;
 }
 .validcontact{
     background-color: $background-color;
    align-self: flex-end;
    border-radius: 20px;
+   
 }
 .formcontact input{
     border-radius: 20px;
     margin-top: 2%;
     margin-bottom: 2%;
+   // width: 50%;
+ 
 }
 .formcontact textarea{
     border-radius: 20px;

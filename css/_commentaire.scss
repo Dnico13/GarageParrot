@@ -1,0 +1,27 @@
+.formcommentaire{
+    width: 70%;
+    background-color: $colorbackgroundmain;
+    margin-left: 15%;
+    border-radius: 20px;
+    margin-block-end: 2%;
+    
+}
+.formcommentaire input{
+    border-radius: 20px;
+    margin-top: 1%;
+    
+}
+.formcommentaire button{
+    background-color: $background-color;
+    border-radius: 20px;
+    margin-left: 70%;
+    width: 30%;
+    margin-bottom: 1%;
+    
+}
+.formcommentaire textarea{
+    border-radius: 20px;
+    margin: 1%;
+    width: 98%;
+
+}

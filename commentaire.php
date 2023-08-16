@@ -20,18 +20,51 @@
         <?php
             include_once 'header.php';
         ?>
+        <h1>Laissez un commentaire</h1>
     </header>
     <main>
-        <form>
-                <label for="name">Nom</label>
-                    <input id="name" type="text">
+        <!--<form class="formcommentaire">
+                <div>
+                        <label for="name">Nom</label>
+                        <div>    
+                            <input id="name" type="text" require>
+                        </div>
+                </div>
 
+                <div>
+                        <label for="note">Note sur 5 :</label>
+                        <div>
+                            <input id="note" type="range" min="0" max="5" step="0.5" require>
+                        </div>
+                </div>
+                <div>
+                        <label for="commentaire2"></label>    
+                        <div>    
+                            <textarea name="commentaire2" id="commentaire2" require>Commentaire</textarea>
+                        </div>
+                </div>
 
-                <label for="note">Note sur 5 :</label>
-                    <input id="note" type="range" min="0" max="5" step="1">
-                
-                    <textarea>Commentaire</textarea>
+                <button  type="submit" class="validcom" name="submit">Envoyer</button>
+        </form>-->
+        <form class="formcommentaire" action="..." method="...">
+            <div class="row mb-3">
+                <label for="name" class="col-sm-2 col-form-label">Name:</label>
+                    <div class="col-sm-10 ">
+                        <input type="text" class="form-control" name="name" id="name">
+                    </div>
+            </div>
 
+            <div class="row mb-3">
+                <label for="note" class="col-sm-2 col-form-label">Note:</label>
+                    <div class="col-sm-10">
+                        <input type="range" class="form-control" id="note">
+                    </div>
+            </div>
+            <div>
+                <label class="form-label" for="message">Message:</label>
+                <textarea class="form-control" name="message" id="message" cols="30" rows="7"></textarea>
+            </div>
+            <button type="submit" class="btnEnvoiCom">Envoi</button>
         </form>
     </main>
     <footer>

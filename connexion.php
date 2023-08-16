@@ -25,7 +25,7 @@
     
     
     <main class="mainconnexion">
-        <form class="containerconnexion">
+        <form class="containerconnexion" action="..." method="...">
             <div class="row mb-3 form2">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
                     <div class="col-sm-10 ">
