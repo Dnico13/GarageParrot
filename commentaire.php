@@ -18,7 +18,7 @@
 <body>
     <header>
         <?php
-            include_once 'header.php';
+            require_once 'header.php';
         ?>
         <h1>Laissez un commentaire</h1>
     </header>
@@ -69,7 +69,7 @@
     </main>
     <footer>
         <?php
-            include_once 'footer.php';
+            require_once 'footer.php';
         ?>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

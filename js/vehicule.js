@@ -39,7 +39,7 @@ for (let i = 0; i < vehicules.length; i++) {
   let detail = document.createElement("div");
   detail.className = "continerDetail";
   detail.innerHTML =`
-              <img src="${vehicules[i].photo}" alt="${vehicules[i].modele}">
+              <img  class="imgcar" src="${vehicules[i].photo}" alt="${vehicules[i].modele}">
                   <div class="containerDescriptif">
                     <div>
                         <p>Kilometrage: ${vehicules[i].kilometrage}</p>

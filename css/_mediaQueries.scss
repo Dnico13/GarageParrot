@@ -104,15 +104,23 @@
 }
 //reparations:
 
-.containerreparation1{
+.containerreparations{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    //justify-content: space-around;
+    //align-items: center;
+    width: 30%;
 }
-.containerreparation1 img{
-    width: 200px;
+.containerreparations div img{
+    width: 300px;
     height: auto;
 }
+.ListReparations{
+    //display: flex;
+    //flex-direction: row;
+    //width: 30%;
+    text-align: left;
+  }
 //.containerreparation1 ul{ 
   //  display: flex;
     

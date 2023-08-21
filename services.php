@@ -19,7 +19,7 @@
 <body>
     <header>
             <?php
-                include_once 'header.php';
+                require_once 'header.php';
             ?>
             <script> document.querySelector('#services').style.color = "#FFFFFF";</script>
             <h1>Services</h1>
@@ -41,7 +41,7 @@
         </article>
         <section>
             <?php
-                    include 'temoignage.php';
+                require_once'temoignage.php';
              ?>
         </section>
 
