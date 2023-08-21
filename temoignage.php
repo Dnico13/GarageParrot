@@ -4,4 +4,9 @@
         Voici un exemple
 
     </p>
+    <button class="buttoncommentaire">
+        <a class="btncommentaire" href="commentaire.php">
+            Laissez un commentaire.
+        </a>
+    </button>
 </div>

@@ -2,10 +2,10 @@
     <nav class="navbar">
         <a href="accueil.php"><img src="./asset/iconeGarageParrot.jpg" class="LogoHeader"></a>
             <div class="headerMenu">
-                <a class="fontMenu" href="services.php">- Services -</a>
-                <a class="fontMenu" href="reparations.php">- Réparations -</a>
-                <a class="fontMenu" href="ventes.php">- Vente de véhicules -</a>
-                <a class="fontMenu" href="connexion.php">- Connexion -</a>
+                <a class="fontMenu" id="services" href="services.php">- Services -</a>
+                <a class="fontMenu" id="reparations" href="reparations.php">- Réparations -</a>
+                <a class="fontMenu" id="ventes" href="ventes.php">- Vente de véhicules -</a>
+                <a class="fontMenu" id="connexion" href="connexion.php">- Connexion -</a>
             </div>
     
 

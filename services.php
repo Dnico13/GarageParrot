@@ -13,13 +13,15 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./asset/iconeGarageParrot.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
+    
+    
 </head>
 <body>
     <header>
             <?php
                 include_once 'header.php';
             ?>
+            <script> document.querySelector('#services').style.color = "#FFFFFF";</script>
             <h1>Services</h1>
     </header>
     <main>

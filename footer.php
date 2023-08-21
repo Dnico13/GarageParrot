@@ -22,10 +22,6 @@
             <p>Dimanche: FERME</p>
     </div>
 
-    <button class="buttoncommentaire">
-        <a class="btncommentaire" href="commentaire.php">
-            Laissez un commentaire.
-        </a>
-    </button>
+    
 
 </div>

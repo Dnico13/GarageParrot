@@ -20,6 +20,7 @@
             <?php
                 include_once 'header.php';
             ?>
+            <script> document.querySelector('#reparations').style.color = "#FFFFFF";</script>
             <h1>Réparations</h1>
     </header>
     <main>

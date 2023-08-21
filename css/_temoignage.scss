@@ -1,0 +1,48 @@
+// commentaires
+.buttoncommentaire{
+    background-color: $background-color;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 100%;
+    //width: 6.6875rem;
+    //height: 2.36531rem;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 15%;
+    height: auto;
+    margin-left: 70%;
+  }
+  .buttoncommentaire:hover {
+    transform: scale (1.2);
+    border: $colorhover  2px solid; 
+                    
+  }
+  .btncommentaire{
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .containertemoignage{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 80%;
+    height: 6.6875rem;
+    border-radius: 1.25rem;
+    background: var(--fond-image-commentaire, rgba(217, 217, 217, 0.50));
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 3%;
+
+  }
+  .colorfonttemoignage{
+    color: $colorfonttemoignage;
+    font-size: 0.85rem;
+  }

@@ -20,6 +20,7 @@
             <?php
                 include_once 'header.php';
             ?>
+            <script> document.querySelector('#connexion').style.color = "#FFFFFF";</script>
             <h1>Formulaire de Connexion</h1>
     </header>
     
