@@ -1,0 +1,5 @@
+{
+    "dataworkspace.excludedProjects": [
+        "mysql-ndev2023.alwaysdata.net/mysql-ndev2023.alwaysdata.net.sqlproj"
+    ]
+}

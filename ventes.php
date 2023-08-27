@@ -18,7 +18,7 @@
 <body>
     <header>
         <?php
-            require_once'header.php';
+            require_once'./template/header.php';
         ?>
         <script> document.querySelector('#ventes').style.color = "#FFFFFF";</script>
         <h1> Vente de vehicules</h1>
@@ -27,19 +27,19 @@
         <article>
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <?php
-                require_once 'arrayCar.php';
-                require_once 'listCar.php';
+                require_once './array/arrayCar.php';
+                require_once './array/listCar.php';
             ?> 
         </article>
         <section>
             <?php
-                    include 'temoignage.php';
+                    include './template/temoignage.php';
              ?>
         </section>
     </main>
     <footer>
         <?php
-            require_once'footer.php';
+            require_once'./template/footer.php';
         ?>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
