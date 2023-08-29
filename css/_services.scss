@@ -1,23 +1,10 @@
-.servicescontainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    //text-align: center;
-
-
-}
-.servicescontainer div{
-    text-align: center;
-}
-
 
 
 .roue{
-    width: 25%;
+    width: 55%;
     height: auto;
     border-radius: 20px;
-    border: 2px solid $colorBorderPic;
+    border: 3px solid $colorBorderPic;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
     text-align: center;
     margin-left: 2%;

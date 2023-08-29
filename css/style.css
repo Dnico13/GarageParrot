@@ -103,7 +103,7 @@ h1 {
 
 .containerPrestation img {
   border-radius: 1.25rem;
-  border: 2px solid #4E495D;
+  border: 2px solid #DBBC19;
   width: 100px;
   height: auto;
 }
@@ -201,33 +201,9 @@ h1 {
     align-items: center;
     margin-left: 0%;
   }
-  .servicecontainer1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .servicescontainer {
+  #roue2, #capot2 {
+    text-align: center;
     margin-bottom: 2%;
-  }
-  .servicecontainer1 img {
-    width: 200px;
-    height: auto;
-  }
-  .listeservices {
-    text-align: left;
-  }
-  .containerreparations {
-    display: flex;
-    flex-direction: row;
-    width: 30%;
-  }
-  .containerreparations div img {
-    width: 300px;
-    height: auto;
-  }
-  .ListReparations {
-    text-align: left;
   }
   .formcontact1 {
     width: 40%;
@@ -242,45 +218,21 @@ h1 {
     margin-bottom: 2%;
   }
 }
-.containerreparations {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-}
-
 .capot {
-  width: 35%;
+  width: 55%;
   height: auto;
   border-radius: 20px;
-  border: 2px solid #4E495D;
+  border: 3px solid #DBBC19;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
   text-align: center;
-}
-
-.ListReparations {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 30%;
-}
-
-.servicescontainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.servicescontainer div {
-  text-align: center;
+  margin-left: 2%;
 }
 
 .roue {
-  width: 25%;
+  width: 55%;
   height: auto;
   border-radius: 20px;
-  border: 2px solid #4E495D;
+  border: 3px solid #DBBC19;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
   text-align: center;
   margin-left: 2%;

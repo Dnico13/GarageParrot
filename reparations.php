@@ -25,18 +25,16 @@
     </header>
     <main>
         <article>
-            <div class="containerreparations">
+             <div class="container">
                 
-            
-                    <div>
-                            <img src="./asset/VisuelReparations.JPG" class="capot">
-                    </div>
-                    <ul class="ListReparations">
-
-                    </ul>
-            
-
-
+                        <div class="row">
+                            <div class="col" id="capot2">
+                                <img src="./asset/VisuelReparations.JPG"  class="capot" alt="illustration d une voiture capot soulevée">
+                            </div>
+                            <ul class="ListReparations col ">
+        
+                            </ul>
+                        </div>
             </div>
         </article>
         <section>

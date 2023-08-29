@@ -26,18 +26,17 @@
     </header>
     <main>
         <article>
-            <div class="servicescontainer">
+            <div class="container">
                 
-                    <div class="servicecontainer1">
-                        <div>
-                            <img src="./asset/VisuelRoue.JPG" class="roue">
+                    <div class="row">
+                        <div class="col" id="roue2">
+                            <img src="./asset/VisuelRoue.JPG" class="roue" >
                         </div>
-                        <ul class="listeServices">
-                
+                        <ul class="listeServices col ">
+            
                         </ul>
                     </div>
             </div>
-
         </article>
         <section>
             <?php
