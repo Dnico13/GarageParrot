@@ -33,7 +33,7 @@
         </article>
         <section>
             <?php
-                    include './template/temoignage.php';
+                    include 'temoignage.php';
              ?>
         </section>
     </main>

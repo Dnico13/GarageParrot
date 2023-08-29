@@ -40,7 +40,7 @@
         </article>
         <section>
             <?php
-                require_once'./template/temoignage.php';
+                require_once'temoignage.php';
              ?>
         </section>
 
