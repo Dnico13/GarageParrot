@@ -23,9 +23,9 @@
         <script> document.querySelector('#ventes').style.color = "#FFFFFF";</script>
         <h1> Vente de vehicules</h1>
     </header>
-    <main>
-        <article>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
+    <main class="container justify-content-center ms-5">
+        <article class="row">
+        <div class="col">
             <?php
                 require_once './array/arrayCar.php';
                 require_once './array/listCar.php';

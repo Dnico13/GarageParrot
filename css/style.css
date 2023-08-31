@@ -10,7 +10,6 @@ body {
   background-color: var(--fond-parrot, #2E71AE);
   font-size: x-large;
   box-sizing: border-box;
-  min-height: 100%;
 }
 
 h1 {
@@ -436,51 +435,57 @@ footer {
   text-decoration: underline;
 }
 
-.containerVisuVehicule {
-  border-radius: 20px;
-  width: 80%;
-  height: 18, 5%;
-  background-color: #D9D9D9;
-  margin-left: 10%;
-  margin-bottom: 2%;
+/*.containerVisuVehicule{
+    border-radius: 20px;
+    width: 80%;
+    height: 18,5%;
+    background-color: $colorbackgroundmain;
+    margin-left: 10%;
+    margin-bottom: 2%;
+
+
+
+}
+.continerDetail{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.imgcar{
+    width: 32%;
+    height: 63.5%;
+    border-radius: 20px;
+    //width: auto;
+    align-self: center;
+    padding: 1%;
+}
+.containerDescriptif{
+    width: 59%;
+    //height: 89%;
+    background-color: $colorbackgroundbackform;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left:  5% ;
+    height: 100%;
+    border-radius: 20px;
+    padding: 2%;
+}
+.containerDescriptif button{
+    border-radius: 20px;
+    background-color: $background-color;
+    width: 20%;
+    align-self: flex-end;
+
+}    
+.containerDescriptif button a{
+    color: $colorfonttemoignage;
+    text-decoration: none;
+    width: 30%;
+    height: 10%;
 }
 
-.continerDetail {
-  border-radius: 20px;
-  display: flex;
-  flex-direction: row;
-}
 
-.imgcar {
-  width: 32%;
-  height: 63.5%;
-  border-radius: 20px;
-  align-self: center;
-  padding: 1%;
-}
-
-.containerDescriptif {
-  width: 59%;
-  background-color: rgba(46, 113, 174, 0.52);
-  display: flex;
-  flex-direction: column;
-  margin-top: 3%;
-  margin-left: 5%;
-  height: 100%;
-  border-radius: 20px;
-  padding: 2%;
-}
-
-.containerDescriptif button {
-  border-radius: 20px;
-  background-color: var(--fond-parrot, #2E71AE);
-  width: 20%;
-  align-self: flex-end;
-}
-
-.containerDescriptif button a {
-  color: white;
-  text-decoration: none;
-  width: 30%;
-  height: 10%;
-}/*# sourceMappingURL=style.css.map */
+*//*# sourceMappingURL=style.css.map */
