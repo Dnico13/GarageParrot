@@ -28,26 +28,26 @@
     <h1> Vente de vehicules</h1>
   </header>
   <main>
-    <article class="container d-flex flex-row justify-content-center ">
+    <article class="container d-flex flex-row">
       <div class="row">
-        <div class="col-md-4  mx-0 my-2">
-          <div class="card w-75 ">
+        <div class="col col-md-4 my-2">
+          <div class="card">
             <img src="./asset/PicCar/aircross/aircross1.jpg" >
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Citroen Air Cross </h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             <a href="#" class="btn btn-primary text-end">Go somewhere</a>
           </div>
         </div>
-        <div class="col-md-4  my-2">
-          <div class="card w-75">
+        <div class="col col-md-4 my-2">
+          <div class="card">
             <img src="./asset/PicCar/aircross/aircross1.jpg">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             <a href="#" class="btn btn-primary text-end">Go somewhere</a>
           </div>
         </div>
-        <div class="col-md-4 my-2">
-          <div class="card w-75">
+        <div class="col col-md-4 my-2"> 
+          <div class="card">
             <img src="./asset/PicCar/aircross/aircross1.jpg">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

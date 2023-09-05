@@ -10,6 +10,7 @@ body {
   background-color: var(--fond-parrot, #2E71AE);
   font-size: x-large;
   box-sizing: border-box;
+  min-height: 100%;
 }
 
 h1 {
