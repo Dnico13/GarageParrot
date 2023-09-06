@@ -1,6 +1,6 @@
 <?php
-$DataName = 'ndev2023_garageparrotecf';
-$Host = 'mysql-ndev2023.alwaysdata.net';
+
+
 $User= 'ndev2023';
 $Password = 'Maude83480@';
 
