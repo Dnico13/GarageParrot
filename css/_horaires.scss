@@ -1,0 +1,40 @@
+.horaires{
+    //display: flex;
+    //flex-direction: row;
+    //justify-content: flex-end;
+    //align-items: center;
+    width: 100%;
+    height: 100%;
+    align-self: end;
+    font-size: smaller;
+    }
+
+    .horaires span {
+    text-decoration: underline;
+    
+    }
+    
+ .btnmodale{
+    background-color:$colorButtonContact ;
+    color: white;
+    border-radius: 20px;
+ }  
+ 
+ .btnmodale:hover{
+    transform: scale (1.2);
+    border: $colorhover  2px solid; 
+    background-color:$colorButtonContact ;
+    color: blue;
+ }
+ .colortable{
+   border-radius: 20px;
+   background-color: $background-color;
+   color: white;
+ }
+ .colormodalbody{
+   background-color:$colorbackgroundbackform;
+ }
+ .colormodalheader{
+   background-color: $colorbackgroundmain;
+ }
+ 

@@ -10,7 +10,7 @@
     
 
             <div class="dropdown navBarMobile">
-                <a class="btn btn-dark dropdown-toggle colorfontnavmobile" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="btn btn-dark dropdown-toggle colorfontnavmobile"  href="#" role="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                  Menu
                 </a>
       

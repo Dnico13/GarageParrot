@@ -10,15 +10,18 @@ footer{
     flex-direction: row;
 }
 .containerfooter{
-display: flex;
-width: 100%;
-align-items: center;
+  //display: flex;
+  min-width: 100%;
+  //align-items: center;
+  padding-top: 0.5%;
+  margin-bottom: 0.5%;
 
 }
-.ContactButton:hover {
+.ContactButton:hover{
         
     transform: scale (1.2);
     border: $colorhover  2px solid; 
+    
                 
     }
     .ContactButton{
@@ -46,18 +49,7 @@ align-items: center;
         text-decoration: none;
       }
 
-.horaires{
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-align-items: center;
-width: 80%;
-font-size: smaller;
-}
-.horaires span {
-text-decoration: underline;
 
-}
   
 
 
