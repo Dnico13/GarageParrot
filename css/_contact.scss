@@ -1,35 +1,22 @@
 .formcontact{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
     background-color: $colorbackgroundmain;
-    padding: 2%;
-    margin-left: 5%;
-   border-radius: 20px;
-   overflow: hidden;
-   //auto?
-    
+    border-radius: 20px;
+       
 }
 
-.divformcontact{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    //overflow: hidden;
-}
+
 .validcontact{
     background-color: $background-color;
-   align-self: flex-end;
-   border-radius: 20px;
+    border-radius: 20px;
    
 }
 .formcontact input{
     border-radius: 20px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-   // width: 50%;
-   background-color:$colorbackgroundbackform;
- 
+    margin-top: 0.5%;
+    margin-bottom:0.5%;
+    background-color:$colorbackgroundbackform;
+   
 }
 .formcontact textarea{
     border-radius: 20px;

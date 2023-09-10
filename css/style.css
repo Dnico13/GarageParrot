@@ -205,18 +205,6 @@ h1 {
     text-align: center;
     margin-bottom: 2%;
   }
-  .formcontact1 {
-    width: 40%;
-    height: 50%;
-    margin-left: 30%;
-  }
-  .formcontact1 textarea {
-    width: 100%;
-    resize: none;
-  }
-  .divformcontact {
-    margin-bottom: 2%;
-  }
 }
 .capot {
   width: 55%;
@@ -273,32 +261,20 @@ h1 {
 }
 
 .formcontact {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
   background-color: #D9D9D9;
-  padding: 2%;
-  margin-left: 5%;
   border-radius: 20px;
-  overflow: hidden;
-}
-
-.divformcontact {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .validcontact {
   background-color: var(--fond-parrot, #2E71AE);
-  align-self: flex-end;
   border-radius: 20px;
 }
 
 .formcontact input {
   border-radius: 20px;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
   background-color: rgba(46, 113, 174, 0.52);
 }
 
