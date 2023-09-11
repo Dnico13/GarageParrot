@@ -1,4 +1,4 @@
-let listReparations = [ 'Diagnostique' , 'Motorisation' , 'Echappement' , 'Pare-Brise' , 'Carrosserie' , 'Boite de vitesse' , 'Embrayage', 'Recherche de Panne'];
+let listReparations = [ 'Diagnostic' , 'Motorisation' , 'Echappement' , 'Pare-Brise' , 'Carrosserie' , 'Boite de vitesse' , 'Embrayage', 'Recherche de Panne'];
  
     let ul = document.querySelector('.ListReparations');
     listReparations.forEach(function(Reparations){

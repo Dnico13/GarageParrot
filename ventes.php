@@ -28,8 +28,7 @@
         <h1> Vente de vehicules</h1>
     </header>
     <main class="container justify-content-center">
-        <article class="row">
-            <!--<div class="col">-->
+        <article>
             <?php
             require_once './array/arrayCar.php';
             require_once './array/listCar.php';

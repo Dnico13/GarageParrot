@@ -399,60 +399,35 @@ footer {
   text-decoration: none;
 }
 
-/*.containerVisuVehicule{
-    border-radius: 20px;
-    width: 80%;
-    height: 18,5%;
-    background-color: $colorbackgroundmain;
-    margin-left: 10%;
-    margin-bottom: 2%;
-
-
-
-}
-.continerDetail{
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-
-
-}
-.imgcar{
-    width: 32%;
-    height: 63.5%;
-    border-radius: 20px;
-    //width: auto;
-    align-self: center;
-    padding: 1%;
-}
-.containerDescriptif{
-    width: 59%;
-    //height: 89%;
-    background-color: $colorbackgroundbackform;
-    display: flex;
-    flex-direction: column;
-    margin-top: 3%;
-    margin-left:  5% ;
-    height: 100%;
-    border-radius: 20px;
-    padding: 2%;
-}
-.containerDescriptif button{
-    border-radius: 20px;
-    background-color: $background-color;
-    width: 20%;
-    align-self: flex-end;
-
-}    
-.containerDescriptif button a{
-    color: $colorfonttemoignage;
-    text-decoration: none;
-    width: 30%;
-    height: 10%;
+.fontcardbody {
+  font-size: smaller;
+  color: black;
+  background-color: rgba(46, 113, 174, 0.52);
 }
 
+.imgcard {
+  width: 100%;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
 
-*/
+.bgcard {
+  background-color: #6D7F98;
+}
+
+.bgcard a {
+  border-radius: 20px;
+  background-color: #421B25;
+}
+
+.bgcard a :hover {
+  transform: scale 1.2;
+  border: white 2px solid;
+}
+
 .horaires {
   width: 100%;
   height: 100%;

@@ -54,7 +54,7 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row">Samedi:</th>
-                                                <td>J8H30-12H00</td>
+                                                <td>8H30-12H00</td>
                                                 <td>FERME</td>
                                             </tr>
                                             <tr>

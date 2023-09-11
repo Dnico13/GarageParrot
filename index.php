@@ -24,7 +24,7 @@
     </header>
     <main class="containerAcceuil">
         <a href="accueil.php">
-            <img src="./asset/iconeGarageParrot.jpg" alt="Logo du Garage  Vincent Parrot" class="logoPic animate__animated animate__backInDown">
+            <img src="./asset/logo2.jpg" alt="Logo du Garage  Vincent Parrot" class="logoPic animate__animated animate__backInDown">
         </a>
         <h1 class="titleBeginn animate__animated animate__fadeInUpBig animate__delay-1s animate__repeat-1 	"> Garage Vincent Parrot </h1>
 

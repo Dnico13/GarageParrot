@@ -1,6 +1,6 @@
 <?php
 
-$arrayreparations = [ 'Diagnostique' , 'Motorisation' , 'Echappement' , 'Pare-Brise' , 'Carrosserie' , 'Boite de vitesse' , 'Embrayage', 'Recherche de Panne'];
+$arrayreparations = [ 'Diagnostic' , 'Motorisation' , 'Echappement' , 'Pare-Brise' , 'Carrosserie' , 'Boite de vitesse' , 'Embrayage', 'Recherche de Panne'];
 
 
 foreach ($arrayreparations as $key => $reparation) {?>
