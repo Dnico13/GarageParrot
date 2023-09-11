@@ -421,9 +421,10 @@ footer {
 .bgcard a {
   border-radius: 20px;
   background-color: #421B25;
+  color: white;
 }
 
-.bgcard a :hover {
+.bgcard a:hover {
   transform: scale 1.2;
   border: white 2px solid;
 }
@@ -464,4 +465,16 @@ footer {
 
 .colormodalheader {
   background-color: #D9D9D9;
+}
+
+.imagecontactvehicule {
+  width: 70%;
+  height: auto;
+  border-radius: 20px;
+  border: solid 3px #DBBC19;
+}
+
+#objet {
+  font-size: 0.55em;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

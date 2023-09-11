@@ -34,7 +34,8 @@
                 <div class="col-md-4">
                     <p>Venez prendre un rdv pour découvrir votre futur</p>
                     <p> <?= $listCars[$id]["Marque"]." ".$listCars[$id]["Modele"];?></p>
-                    <p> <?= $listCars[$id]["image"];?></p>
+                    <img class="imagecontactvehicule my-2" src="<?= $listCars[$id]["image"];?>"></img>
+                    <br>
                     <p>A tres vite..</p>
 
                 </div>
@@ -71,7 +72,7 @@
                             </div>
                             <label for="Objet">Objet: </label>
                                 <div>
-                                    <input type="text" name="objet" id="objet" class="w-75" require>Prise de rdv pour decouvrir votre <?= $listCars[$id]["Marque"]." ". $listCars[$id]["Modele"];?> <br>
+                                    <input type="text" name="objet" id="objet" class="w-75 text-center" require value="Prise de rdv pour découvrir votre <?= $listCars[$id]["Marque"]." ".$listCars[$id]["Modele"];?>."> <br>
                                 </div>
                             
                             <div class="col-md-12">
@@ -95,7 +96,7 @@
         ?>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <script src="../js/createcontactvehicule.js"></script>
 </body>
 
 </html>

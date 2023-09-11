@@ -16,8 +16,9 @@
 .bgcard a {
     border-radius: 20px;
     background-color: $colorButtonContact;
+    color:white;
 }
-.bgcard a :hover{
+.bgcard a:hover{
     transform: scale (1.2);
     border: $colorhover  2px solid;
 }

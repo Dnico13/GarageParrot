@@ -19,8 +19,8 @@
                             <p class="card-text"><?= $listCar["Description"]; ?></p>
                         </div>
                         <div class="card-footer text-end bgcard">
-                            <a href="detailvente.php?id=<?= $key ?>" class="btn btn-primary">En savoir +</a>
-                            <a href="contactvehicule.php?id=<?= $key ?>" class="btn btn-primary">Prendre RDV</a>
+                            <a href="detailvente.php?id=<?= $key ?>" class="btn ">En savoir +</a>
+                            <a href="contactvehicule.php?id=<?= $key ?>" class="btn ">Prendre RDV</a>
                         </div>
                     </div>
 
