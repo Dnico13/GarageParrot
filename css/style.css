@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--fond-parrot, #2E71AE);
+  background-color: var(--fond-Parrot, #2E71AE);
   font-size: x-large;
   box-sizing: border-box;
   min-height: 100%;
@@ -251,7 +251,7 @@ h1 {
 }
 
 .containerconnexion button {
-  background-color: var(--fond-parrot, #2E71AE);
+  background-color: var(--fond-Parrot, #2E71AE);
   border-radius: 20px;
   margin-left: 60%;
 }
@@ -267,7 +267,7 @@ h1 {
 }
 
 .validcontact {
-  background-color: var(--fond-parrot, #2E71AE);
+  background-color: var(--fond-Parrot, #2E71AE);
   border-radius: 20px;
 }
 
@@ -298,7 +298,7 @@ h1 {
 }
 
 .formcommentaire button {
-  background-color: var(--fond-parrot, #2E71AE);
+  background-color: var(--fond-Parrot, #2E71AE);
   border-radius: 20px;
   margin-left: 70%;
   width: 30%;
@@ -313,7 +313,7 @@ h1 {
 }
 
 .buttoncommentaire {
-  background-color: var(--fond-parrot, #2E71AE);
+  background-color: var(--fond-Parrot, #2E71AE);
   border-radius: 15px;
   font-family: Inter;
   font-size: 75%;
@@ -455,7 +455,7 @@ footer {
 
 .colortable {
   border-radius: 20px;
-  background-color: var(--fond-parrot, #2E71AE);
+  background-color: #421B25;
   color: white;
 }
 
@@ -477,4 +477,11 @@ footer {
 #objet {
   font-size: 0.55em;
   color: white;
+}
+
+.rdvdetailvte {
+  width: 30%;
+  color: white;
+  background-color: #421B25;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */

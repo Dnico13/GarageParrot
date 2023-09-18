@@ -1,30 +1,76 @@
-<?php
+<!DOCTYPE html>
+<html lang="fr">
 
+<head>
 
-$listCars = [
-    ["Marque" => "Citroen", "Modele" => "C5 Air Cross", "Kilometrage" => 0, "Carburant"  => "Diesel", "Description" => "Disponible en motorisation hybride, hybride rechargeable, essence ou diesel. La gamme de moteurs propose quatre moteurs essence et diesels de 130 et 180 ch, et deux boîtes de vitesses (BVM6 et automatique à huit rapports) ", "Prix" => "31999", "image" => "./asset/PicCar/aircross/aircross1.jpg", "image1" => "./asset/PicCar/aircross/aircross2.jpg", "image2" => "./asset/PicCar/aircross/aircross3.jpg", "image3" => "./asset/PicCar/aircross/aircross4.jpg", "image4" => "./asset/PicCar/aircross/aircross5.jpg"],
-    ["Marque" => "Renault", "Modele" => "Arkana", "Kilometrage" => 18000, "Carburant"  => "Essence", "Description" => "Disponible en version hybride, hybride rechargeable et essence. La version hybride est équipée d’un moteur essence 1,6 L de 140 ch et d’un moteur électrique de 36 ch, offrant une puissance cumulée de 145 ch 13. Elle dispose également d’une technologie hybride qui permet de démarrer systématiquement en traction électrique en ville et d’effectuer jusqu’à 80% des trajets en électrique.", "Prix" => "31999", "image" => "./asset/PicCar/arkana/arkana1.jpg"],
-    ["Marque" => "Mino One", "Modele" => "Mini One ", "Kilometrage" => 83472, "Carburant"  => "Diesel", "Description" => "Elle est disponible en version essence et diesel 12. La gamme de moteurs propose deux moteurs essence de 102 et 136 ch, et deux moteurs diesel de 95 et 116 ch. Elle est équipée de technologies d’aide à la conduite et de connectivité de dernière génération .", "Prix" => 16099, "image" => "./asset/PicCar/mini/mini1.jpg"]
-];
-?>
-<article class="container">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="...">
+
+  <title>Garage Parot: Garage automobile dans la région toulousaine.</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./asset/iconeGarageParrot.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <?php require_once './array/arrayCar.php';
+  $id = $_GET['id'];
+
+  ?>
+</head>
+
+<body>
+  <header>
     <?php
-    foreach ($listCars as $key =>  $listCar) { ?>
-        
-        <div class="col-md-4 my-2">
-        <div class="card">
-          <img src="./asset/PicCar/aircross/aircross1.jpg">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary text-end">Go somewhere</a>
+    require_once './template/header.php';
+    ?>
+    <script>
+      document.querySelector('#ventes').style.color = "#FFFFFF";
+    </script>
+    <h1> Details du Vehicule</h1>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-12  col-lg-4">
+
+          <?php include_once './template/carousel.php'; ?>
+
+        </div>
+
+        <div class=" col-12 col-lg-8">
+
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"><?= $listCars[$id]['Modele']; ?></h1>
+
+
+          <div class="container d-flex flex-row justify-content-center">
+            <div class="row">
+              <ul class="col-6">
+                <li>Année: 2016</li>
+                <li>Km: 10 000</li>
+                <li>Prix: 16 900 E</li>
+                <li>Carburant: Diesel </li>
+              </ul>
+              <ul class="col-6">
+                <li>Motorisation: 150 ch</li>
+                <li>Conso: 6l/100</li>
+                <li>Couleur: Grise</li>
+                <li>Nre de Portes: 5</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
+  </main>
+  <footer>
+    <?php
+    require_once './template/footer.php';
+    ?>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
 
-
-
-
-
-    <?php } ?>
-    </div>
-</article>
+</html>

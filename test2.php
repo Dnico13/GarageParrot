@@ -26,54 +26,47 @@
       document.querySelector('#ventes').style.color = "#FFFFFF";
     </script>
     <h1> Vente de vehicules</h1>
+    <div class="container justify-content-around  text-center">
+      <div class="row">
+        <div class="col">
+          <p> Prix</p>
+          <button class="btn btn-primary" id="croissantprix"> Croissant </button>
+          <button class="btn btn-primary" id="decroissantprix">Decroissant</button>
+        </div>
+        <div class="col">
+          <p> Kilometrage</p>
+          <button class="btn btn-secondary" id="croissantkm"> Croissant</button>
+          <button class="btn btn-secondary" id="decroissantkm"> Decroissant</button>
+        </div>
+        <div class="col">
+          <p> Année de mise en circulation</p>
+          <div class="btn btn-danger" id="croissantid">Croissant</div>
+          <div class="btn btn-danger" id="decroissantid">Decroissant</div>
+        </div>
+      </div>
+    </div>
   </header>
   <main>
-    <article class="container d-flex flex-row">
-      <div class="row">
-        <div class="col col-md-4 my-2">
-          <div class="card">
-            <img src="./asset/PicCar/aircross/aircross1.jpg" >
-            <h5 class="card-title">Citroen Air Cross </h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#" class="btn btn-primary text-end">Go somewhere</a>
-          </div>
-        </div>
-        <div class="col col-md-4 my-2">
-          <div class="card">
-            <img src="./asset/PicCar/aircross/aircross1.jpg">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#" class="btn btn-primary text-end">Go somewhere</a>
-          </div>
-        </div>
-        <div class="col col-md-4 my-2"> 
-          <div class="card">
-            <img src="./asset/PicCar/aircross/aircross1.jpg">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#" class="btn btn-primary text-end">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-
-
-
-      </div>
-    </article>
-    <section>
+    <main class="container justify-content-center">
+      <article>
+        <?php
+        require_once './array/arrayCar.php';
+        require_once './array/listCar.php';
+        ?>
+      </article>
+      <section>
+        <?php
+        include 'temoignage.php';
+        ?>
+      </section>
+    </main>
+    <footer>
       <?php
-      include 'temoignage.php';
+      require_once './template/footer.php';
       ?>
-    </section>
-  </main>
-  <footer>
-    <?php
-    require_once './template/footer.php';
-    ?>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <script src="./js/v"></script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./js/v"></script>
 </body>
 
 </html>

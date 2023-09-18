@@ -32,7 +32,7 @@
         <div class=" container  text-center d-flex flex-column my-5">
             <div class="row">
                 <div class="col-md-4">
-                    <p>Venez prendre un rdv pour découvrir votre futur</p>
+                    <p>Venez prendre un rdv pour découvrir votre future</p>
                     <p> <?= $listCars[$id]["Marque"]." ".$listCars[$id]["Modele"];?></p>
                     <img class="imagecontactvehicule my-2" src="<?= $listCars[$id]["image"];?>"></img>
                     <br>

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./asset/iconeGarageParrot.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
@@ -32,7 +32,13 @@
                         avoir un renseignement?</p>
                     <p>Nos equipes sont là pour répondre à vos attentes.</p>
                     <p>Contactez-nous par télèphone:</p>
-                    <p><a href="tel:0605060704">06 05 06 07 04</a></p>
+                    <p>
+                        <span class="material-symbols-outlined">
+                            call
+                        </span>
+                        <a href="tel:0605060704">06 05 06 07 04</a>
+
+                    </p>
                     <P>Ou remplissez le formulaire afin que nous puissions revenir vers
                         vous.</P>
                     <p>A tres vite..</p>
@@ -45,34 +51,34 @@
                             <div class="col-md-6">
                                 <label for="firstname">Prénom: </label>
                                 <div>
-                                    <input type="text" name="firstname" id="firstname" class="w-75" require><br>
+                                    <input type="text" name="firstname" id="firstname" class="w-75" placeholder="John" require><br>
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <label for="name">Nom:</label>
                                 <div>
-                                    <input type="text" name="name" id="name" require class="w-75"><br>
+                                    <input type="text" name="name" id="name" require class="w-75" placeholder="Doe"><br>
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <label for="email">Email:</label>
                                 <div>
-                                    <input type="email" name="email" id="email" require class="w-75"><br>
+                                    <input type="email" name="email" id="email" require class="w-75" placeholder="yxz@gmail.com"><br>
                                 </div>
                             </div>
 
                             <div class="col-md-6 ">
                                 <label for="phone"> Tel:</label>
                                 <div>
-                                    <input type="tel" name="phone" id="phone" require minlength="10" maxlength="10" class="w-75"><br>
+                                    <input type="tel" name="phone" id="phone" require minlength="10" maxlength="10" class="w-75" placeholder="0606060606"><br>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <label for="commentaire"></label>
 
-                                <textarea name="commentaire" id="commentaire" class="col-md-8" cols="28" rows="5" require>Message...</textarea><br>
+                                <textarea name="commentaire" id="commentaire" class="col-md-8" cols="28" rows="5" require placeholder="Votre message.."></textarea><br>
 
                             </div>
                             <button type="submit" class="validcontact mb-1 mx-auto w-25 align-self-end" name="submit">Envoyer</button>

@@ -15,9 +15,11 @@
     }
     
  .btnmodale{
-    background-color:$colorButtonContact ;
+    background-color: $colorButtonContact;
     color: white;
     border-radius: 20px;
+    
+    
  }  
  
  .btnmodale:hover{
@@ -28,7 +30,7 @@
  }
  .colortable{
    border-radius: 20px;
-   background-color: $background-color;
+   background-color: $colorButtonContact;
    color: white;
  }
  .colormodalbody{
