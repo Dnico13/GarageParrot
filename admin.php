@@ -28,21 +28,42 @@ session_start();
 
     </header>
     <main class="m-5">
-        <ol class="">
+        <ul class="">
+
             <li>
                 <h3> Modification des horaires d'ouvertures </h3>
             </li>
+            <ol>
+                <?php
+                require_once './template/horaires.php'
+                ?>
+            </ol>
+            <li>
+                <h3> Modification des Services</h3>
+            </li>
+            <ol>
+                <?php
+                require_once './array/arrayservices.php';
+                ?>
+                <form method="post" action="./array/traitement.php">
+                <input type="text" name="descriptif" value="<?php echo $arrayServices[1]; ?>"> 
+                <input type="submit" value="Modifier"> 
+                </form> 
+            </ol>
 
-            <?php
-            require_once './template/horaires.php'
-            ?>
+
+
 
             <li>
-                <h3> Modification des Services et Prestations</h3>
+                <h3> Modification des Prestations</h3>
             </li>
+            <ol>
+                <?php
+                require_once './array/arrayreparations.php';
+                ?>
+            </ol>
 
 
-            
             <li>
                 <h3>Validation des commentaires clients</h3>
             </li>
@@ -53,7 +74,7 @@ session_start();
             </li>
 
 
-        </ol>
+        </ul>
     </main>
     <footer>
         <?php

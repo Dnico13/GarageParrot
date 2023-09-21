@@ -17,7 +17,11 @@
 
     <?php
     require_once './array/arrayCar.php';
-    $id = $_GET['id'];
+    require_once 'pdo.php';
+    
+    $listCars = getlistCars($pdo);
+
+    $id_voitures = $_GET['id'];
     ?>
 </head>
 
@@ -32,16 +36,16 @@
         <div class=" container  text-center d-flex flex-column my-5">
             <div class="row">
                 <div class="col-md-4">
-                    <p>Venez prendre un rdv pour découvrir votre future</p>
-                    <p> <?= $listCars[$id]["Marque"]." ".$listCars[$id]["Modele"];?></p>
-                    <img class="imagecontactvehicule my-2" src="<?= $listCars[$id]["image"];?>"></img>
+                    <p>Venez reserver votre essai, au garage, afin de découvrir votre future</p>
+                    <p> <?= $listCars[$id_voitures]['marque'] . " " . $listCars[$id_voitures]['modele']; ?></p>
+                    <img class="imagecontactvehicule my-2" src="<?= $listCars[$id_voitures]['picture']; ?>"></img>
                     <br>
                     <p>A tres vite..</p>
 
                 </div>
                 <div class="col-md-8 d-flex flex-column">
 
-                    <form class="formcontact" method="post" action="envoiContact.php">
+                    <form class="formcontact" method="post" action="">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <label for="firstname">Prénom: </label>
@@ -71,10 +75,10 @@
                                 </div>
                             </div>
                             <label for="Objet">Objet: </label>
-                                <div>
-                                    <input type="text" name="objet" id="objet" class="w-75 text-center" require value="Prise de rdv pour découvrir votre <?= $listCars[$id]["Marque"]." ".$listCars[$id]["Modele"];?>."> <br>
-                                </div>
-                            
+                            <div>
+                                <input type="text" name="objet" id="objet" class="w-75 text-center" require value="Prise de rdv pour découvrir votre <?= $listCars[$id_voitures]['marque'] . " " . $listCars[$id_voitures]['modele']; ?>."> <br>
+                            </div>
+
                             <div class="col-md-12">
                                 <label for="commentaire"></label>
 

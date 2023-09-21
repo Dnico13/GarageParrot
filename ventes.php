@@ -15,8 +15,13 @@
     <link rel="shortcut icon" href="./asset/iconeGarageParrot.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
+    <?php
+        require_once 'pdo.php';
+        require_once './array/arrayCar.php';
+        $listCars= getlistCars($pdo);
+        
+    ?>
 </head>
-
 <body>
     <header>
         <?php
@@ -31,7 +36,8 @@
     <main class="container justify-content-center">
         <article>
             <?php
-            require_once './array/arrayCar.php';
+            
+            
             require_once './array/listCar.php';
             ?>
         </article>

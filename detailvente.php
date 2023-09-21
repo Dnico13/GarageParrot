@@ -15,8 +15,14 @@
   <link rel="shortcut icon" href="./asset/iconeGarageParrot.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-  <?php require_once './array/arrayCar.php';
-  $id = $_GET['id'];
+  <?php
+  require_once './array/arrayCar.php';
+
+  require_once 'pdo.php';
+  //require_once './array/arrayCar.php';
+  $listCars = getlistCars($pdo);
+
+  $id_voitures = $_GET['id'];
 
   ?>
 </head>
@@ -43,24 +49,24 @@
 
         <div class=" col-12 col-lg-8">
 
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"><?= $listCars[$id]['Modele']; ?></h1>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"><?= $listCars[$id_voitures]['marque']." ".$listCars[$id_voitures]['modele']; ?></h1>
 
           <div class="container d-flex flex-row justify-content-center ">
             <div class="row">
               <ul class="col-6">
-                <li>Année: 2016</li>
-                <li>Km: 10 000</li>
-                <li>Prix: 16 900 E</li>
-                <li>Carburant: Diesel </li>
+                <li>Année: <?=$listCars[$id_voitures]['annee'];?></li>
+                <li>Km: <?=$listCars[$id_voitures]['kilometre'];?></li>
+                <li>Prix: <?=$listCars[$id_voitures]['prix'];?> Euros</li>
+                <li>Carburant: <?=$listCars[$id_voitures]['energie'];?> </li>
               </ul>
               <ul class="col-6">
-                <li>Motorisation: 150 ch</li>
-                <li>Conso: 6l/100</li>
-                <li>Couleur: Grise</li>
-                <li>Nre de Portes: 5</li>
+                <li>Motorisation: <?=$listCars[$id_voitures]['motorisation'];?></li>
+                <li>Conso: <?=$listCars[$id_voitures]['consommation'];?></li>
+                <li>Couleur: <?=$listCars[$id_voitures]['couleur'];?></li>
+                <li>Nbre de Portes: <?=$listCars[$id_voitures]['porte'];?></li>
               </ul>
-              <a type="button" href="contactvehicule.php?id=<?= $id ?>" class="btn  rdvdetailvte">Prendre RDV</a>
-
+              
+              
             </div>
           </div>
         </div>
