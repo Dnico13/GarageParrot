@@ -1,6 +1,8 @@
     <?php
     require_once 'pdo.php';
-    require_once './array/arrayCar.php';
+    require_once './function/readListCar.php';
+    require_once 'pdo.php';
+    require_once './function/readTemoignage.php';
     $listCars = getlistCars($pdo);
 
     require_once './template/top.php';
@@ -23,7 +25,7 @@
                 <?php
 
 
-                require_once './array/listCar.php';
+                require_once './function/listCar.php';
                 ?>
             </article>
             <section>

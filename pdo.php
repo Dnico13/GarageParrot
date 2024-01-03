@@ -9,12 +9,7 @@ try {
     $pdo = new PDO('mysql:host=mysql-ndev2023.alwaysdata.net;dbname=ndev2023_garageparrotecf', $User, $Password);
    
 } catch (PDOException $e) {
-    echo " il y a  un soucis";
+    echo " il y a erreur dans la connexion avec la Base De Donnée";
 }
 
 
-//$id = (int)$_GET['id'];
-//$query  = $pdo->prepare("SELECT * FROM voitures");
-
-//$query ->execute();
-//$listCars = $query->fetchAll(PDO::FETCH_ASSOC);

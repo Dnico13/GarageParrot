@@ -1,5 +1,8 @@
 <?php
 require_once './template/top.php';
+require_once './pdo.php';
+
+
 ?>
 
 <body>
@@ -18,9 +21,9 @@ require_once './template/top.php';
                     <p>Nos equipes sont là pour répondre à vos attentes.</p>
                     <p>Contactez-nous par télèphone:</p>
                     <p>
-                        <span class="material-symbols-outlined">
-                            call
-                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg>
                         <a href="tel:0605060704">06 05 06 07 04</a>
 
                     </p>
@@ -31,19 +34,19 @@ require_once './template/top.php';
                 </div>
                 <div class="col-md-8 d-flex flex-column">
 
-                    <form class="formcontact" method="post" action="envoiContact.php">
+                    <form class="formcontact" method="POST" action="function/sendContact.php">
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <label for="firstname">Prénom: </label>
+                                <label for="prenom">Prénom: </label>
                                 <div>
-                                    <input type="text" name="firstname" id="firstname" class="w-75" placeholder="John" require><br>
+                                    <input type="text" name="prenom" id="prenom" class="w-75" placeholder="John" require><br>
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="name">Nom:</label>
+                                <label for="nom">Nom:</label>
                                 <div>
-                                    <input type="text" name="name" id="name" require class="w-75" placeholder="Doe"><br>
+                                    <input type="text" name="nom" id="nom" require class="w-75" placeholder="Doe"><br>
                                 </div>
                             </div>
 
@@ -55,15 +58,15 @@ require_once './template/top.php';
                             </div>
 
                             <div class="col-md-6 ">
-                                <label for="phone"> Tel:</label>
+                                <label for="telephone"> Tel:</label>
                                 <div>
-                                    <input type="tel" name="phone" id="phone" require minlength="10" maxlength="10" class="w-75" placeholder="0606060606"><br>
+                                    <input type="tel" name="telephone" id="telephone" require minlength="10" maxlength="10" class="w-75" placeholder="0606060606"><br>
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <label for="commentaire"></label>
+                                <label for="message"></label>
 
-                                <textarea name="commentaire" id="commentaire" class="col-md-8" cols="28" rows="5" require placeholder="Votre message.."></textarea><br>
+                                <textarea name="message" id="message" class="col-md-8" cols="28" rows="5" require placeholder="Votre message.."></textarea><br>
 
                             </div>
                             <button type="submit" class="validcontact mb-1 mx-auto w-25 align-self-end" name="submit">Envoyer</button>

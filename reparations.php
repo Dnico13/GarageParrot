@@ -1,5 +1,10 @@
 <?php
 require_once './template/top.php';
+require_once './pdo.php';
+require_once './function/readReparation.php';
+require_once 'pdo.php';
+require_once './function/readTemoignage.php';
+$readReparations= readReparations($pdo);
 ?>
 
 <body>
@@ -21,7 +26,13 @@ require_once './template/top.php';
                         <img src="./asset/VisuelReparations.JPG" class="capot" alt="illustration d une voiture capot soulevée">
                     </div>
                     <ul class="ListReparations col ">
+                        <!-- Debut boucle Foreach-->
+                        <?php
+                        foreach ($readReparations as $key => $readReparation) { ?>
+                            <li><?= $readReparation['reparation'];?></li>
+                       <?php } ?>
 
+                        <!-- Fin boucle Foreach -->
                     </ul>
                 </div>
             </div>
@@ -39,7 +50,7 @@ require_once './template/top.php';
         ?>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="./js/listReparations.js"></script>
+    <!--<script src="./js/listReparations.js"></script>-->
 
 </body>
 

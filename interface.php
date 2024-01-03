@@ -1,19 +1,20 @@
 <?php
-session_start();
+//session_start();
 
 require_once './pdo.php';
+require_once './template/top.php';
 //require_once './log/login.php';
 
 
 //require_once './function/functionReadMessage.php';
 
-$utilisateurs = getUtilisateur($pdo);
-$details = getDetailetImage($pdo);
+//$utilisateurs = getUtilisateur($pdo);
+//$details = getDetailetImage($pdo);
 
-$readMessages = readMessages($pdo);
+//$readMessages = readMessages($pdo);
 
 
-if (isset($_SESSION['role']) && $_SESSION['role'] === 'Admin'||$_SESSION['role'] === 'Employe')
+//if (isset($_SESSION['role']) && $_SESSION['role'] === 'Admin'||$_SESSION['role'] === 'Employe')
 { ?>
 
 <body>
@@ -90,7 +91,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] === 'Admin'||$_SESSION['role']
             <!-- Debut de la partie administrateur et utilisateur du site -->
         <?php
 
-        if ( $_SESSION['role'] === 'Admin') {?>
+        //if ( $_SESSION['role'] === 'Admin') {?>
 
             <div class="row">
                 <h3 class="text-center  text-primary mb-3">Grille des Utilisateurs </h3>
@@ -256,6 +257,3 @@ if (isset($_SESSION['role']) && $_SESSION['role'] === 'Admin'||$_SESSION['role']
 </body>
 
 </html>
-<?php  } else {
-    header ('location : ./index.php');
-}

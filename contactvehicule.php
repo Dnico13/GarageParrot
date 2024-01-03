@@ -1,6 +1,8 @@
 <?php
-require_once './array/arrayCar.php';
+require_once './function/readListCar.php';
 require_once 'pdo.php';
+
+require_once './function/readTemoignage.php';
 
 $listCars = getlistCars($pdo);
 
@@ -30,19 +32,19 @@ require_once './template/top.php';
                 </div>
                 <div class="col-md-8 d-flex flex-column">
 
-                    <form class="formcontact" method="post" action="">
+                    <form class="formcontact" method="post" action="function/sendContactCar.php">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <label for="firstname">Prénom: </label>
                                 <div>
-                                    <input type="text" name="firstname" id="firstname" class="w-75" require><br>
+                                    <input type="text" name="prenom" id="prenom" class="w-75" require><br>
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="name">Nom:</label>
+                                <label for="nom">Nom:</label>
                                 <div>
-                                    <input type="text" name="name" id="name" require class="w-75"><br>
+                                    <input type="text" name="nom" id="nom" require class="w-75"><br>
                                 </div>
                             </div>
 
@@ -54,9 +56,9 @@ require_once './template/top.php';
                             </div>
 
                             <div class="col-md-6 ">
-                                <label for="phone"> Tel:</label>
+                                <label for="telephone"> Tel:</label>
                                 <div>
-                                    <input type="tel" name="phone" id="phone" require minlength="10" maxlength="10" class="w-75"><br>
+                                    <input type="tel" name="telephone" id="telephone" require minlength="10" maxlength="10" class="w-75"><br>
                                 </div>
                             </div>
                             <label for="Objet">Objet: </label>
@@ -65,9 +67,9 @@ require_once './template/top.php';
                             </div>
 
                             <div class="col-md-12">
-                                <label for="commentaire"></label>
+                                <label for="message"></label>
 
-                                <textarea name="commentaire" id="commentaire" class="col-md-8" cols="28" rows="5" require>Message...</textarea><br>
+                                <textarea name="message" id="message" class="col-md-8" cols="28" rows="5" placeholder="Veuillez laisser votre message ici" require></textarea><br>
 
                             </div>
                             <button type="submit" class="validcontact mb-1 mx-auto w-25 align-self-end" name="submit">Envoyer</button>

@@ -1,5 +1,10 @@
 <?php
 require_once './template/top.php';
+require_once './pdo.php';
+require_once './function/readServices.php';
+require_once 'pdo.php';
+require_once './function/readTemoignage.php';
+$readServices = readServices($pdo);
 ?>
 
 
@@ -22,6 +27,14 @@ require_once './template/top.php';
                         <img src="./asset/VisuelRoue.JPG" class="roue">
                     </div>
                     <ul class="listeServices col ">
+                        <!-- debut boucle foreach-->
+                        <?php
+
+                        foreach ($readServices as $key => $readService) { ?>
+                            <li> <?= $readService['service']; ?></li>
+                        <?php } ?>
+
+                        <!-- Fin boucle foreach-->
 
                     </ul>
                 </div>
@@ -40,7 +53,7 @@ require_once './template/top.php';
         ?>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="./js/listServices.js"></script>
+    <!--<script src="./js/listServices.js"></script>-->
 </body>
 
 </html>
