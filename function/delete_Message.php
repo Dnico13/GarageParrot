@@ -5,7 +5,7 @@ require_once '../pdo.php';
 function deleteMessage($pdo){
         
         
-        $Id_Sup= $_GET['id'];
+        $Id_Sup= htmlspecialchars($_GET['id']);
         
         
 

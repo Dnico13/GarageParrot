@@ -1,7 +1,8 @@
 <?php
-
+IF (isset($_POST['logout'])){
 unset($_SESSION['role']);
 session_destroy();
 
-header('location: ../espaceClient.php');
+header('location: ../connexion.php');
 exit();
+};

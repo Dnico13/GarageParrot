@@ -126,3 +126,5 @@ ALTER Table Temoignage ADD COLUMN (
 INSERT into Message(nom, prenom, email, telephone, message)
 VALUES
 ('Fontarosa', 'Christian','cf@gmail.com','0645678900','Merci de bien vouloir me rappaller');
+
+ALTER Table voitures DROP CONSTRAINT id_employes;

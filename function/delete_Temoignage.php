@@ -3,7 +3,7 @@ require_once '../pdo.php';
 
 function deleteTemoignage($pdo){
     
-        $user_Temoignage = $_GET['id'];
+        $user_Temoignage = htmlspecialchars($_GET['id']);
         
         
         $query  = $pdo->prepare("DELETE FROM Temoignage WHERE id_temoignage= :id");
