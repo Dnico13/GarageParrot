@@ -32,7 +32,7 @@ IF (!isset($_SESSION['role'])){
         ?>
 
     </header>
-    <main class="container">
+    <main class="container h6">
     <?php    
     IF ($_SESSION['role'] === "Admin"){?>
 
@@ -182,13 +182,14 @@ IF (!isset($_SESSION['role'])){
                                 <form action="function/validateTemoignage.php" method="POST">
                                     <input type="hidden" name="Validate" value="1">
                                     <input type="hidden" name="id_temoignage" value="<?= htmlspecialchars($readAvis['id_temoignage']); ?>">
-                                    <button class="btn btn-secondary" type="submit" name="submit">Valider</button>
+                                    <div><button class="btn btn-secondary mb-1" type="submit" name="submit">Valider</button></div>
                                 </form>
-                            </td>
+                            
                         <?php } else { ?>
-                            <td></td> <?php } ?>
+                            <td class="text-center">
+                            <?php } ?>
 
-                        <td class="text-center">
+                        <!--<td class="text-center">-->
                             <form action="function/delete_Temoignage.php" method="GET">
                                 <input type="hidden" name="id" value="<?= htmlspecialchars($readAvis['id_temoignage']); ?>">
                                 <button class="btn btn-secondary" type="submit">Supprimer</button>
@@ -360,6 +361,8 @@ IF (!isset($_SESSION['role'])){
                     <th>Couleur</th>
                     <th>P.V.C</th>
                     <th>Nbre de portes</th>
+                    <th></th>
+
 
                 </tr>
             </thead>

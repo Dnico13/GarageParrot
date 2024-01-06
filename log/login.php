@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST")
         if (password_verify($Password, $row['password'])) {
             
             $_SESSION['role'] = $row['role'];
-            
+            setcookie("garage_parrot", $_SESSION['role'], time() + 600, "/");
             header('location: ./admin.php');
         } else {
             echo("<H3 class='text-center h3 text-danger'> Merci de corriger les erreurs de saisie</H3>");

@@ -1,6 +1,31 @@
 <?php
 require_once '../pdo.php';
 
+function supprimer($id) {
+  // Affiche la boîte de confirmation
+  $resultat = confirm("Voulez-vous vraiment supprimer cet élément ?");
+
+  // Si l'utilisateur clique sur "Oui", la suppression est effectuée
+  if ($resultat) {
+    // Code de suppression
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function deleteMessage($pdo){
