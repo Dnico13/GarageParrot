@@ -36,7 +36,7 @@ require_once './function/readTemoignage.php';
                 <input type="hidden" class="form-control" name="Validate" value="0">
             </div>
 
-            <button type="submit" class="btnEnvoiCom" name="submit">Envoi</button>
+            <button  onclick="return send()" type="submit" class="btnEnvoiCom" name="submit">Envoi</button>
         </form>
     </main>
     <footer>
@@ -45,7 +45,7 @@ require_once './function/readTemoignage.php';
         ?>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <script src="js/alerte.js"></script>
 </body>
 
 </html>

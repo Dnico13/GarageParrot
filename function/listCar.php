@@ -20,8 +20,8 @@
                             <p class="card-text"><?= htmlentities($listCar["modele"]); ?></p>
                         </div>
                         <div class="card-footer text-end bgcard">
-                            <a href="detailvente.php?id=<?= $key ?>" class="btn ">En savoir +</a>
-                            <a href="contactvehicule.php?id=<?= $key ?>" class="btn ">Prendre RDV</a>
+                            <a href="detailvente.php?id=<?= $key ?>" class="btn" title="En savoir +">En savoir +</a>
+                            <a href="contactvehicule.php?id=<?= $key ?>" class="btn " title="Prendre RDV">Prendre RDV</a>
                         </div>
                     </div>
 

@@ -9,7 +9,7 @@ require_once './function/readTemoignage.php';
 
 <body>
     <header>
-        <img src="./asset/iconeGarageParrot.jpg" class="LogoHeader">
+        <img src="./asset/iconeGarageParrot.jpg" class="LogoHeader" title="Retour à l'accueil">
     </header>
     <main>
 
@@ -18,7 +18,7 @@ require_once './function/readTemoignage.php';
 
                 <div>
                     <a href="services.php">
-                        <img src="./asset/VisuelRoue.JPG" alt="visuel d'illustration d une roue de voiture monter sur un pont">
+                        <img src="./asset/VisuelRoue.JPG" alt="visuel d'illustration d une roue de voiture monter sur un pont" title="Services">
                     </a>
                 </div>
 
@@ -29,7 +29,7 @@ require_once './function/readTemoignage.php';
             <div class="containerReparation2">
                 <div>
                     <a href="reparations.php">
-                        <img src="./asset/VisuelReparations.JPG" alt="visuel d'illustration d une reparation d un vehicule">
+                        <img src="./asset/VisuelReparations.JPG" alt="visuel d'illustration d une reparation d un vehicule" title="Réparations">
                     </a>
                 </div>
 
@@ -40,7 +40,7 @@ require_once './function/readTemoignage.php';
             <div class="containerventevehicule3">
                 <div>
                     <a href="ventes.php">
-                        <img src="./asset/VisuelVenteVehicules.JPG" alt="Visuel d un parc de vehicule d'occassions a vendre">
+                        <img src="./asset/VisuelVenteVehicules.JPG" alt="Visuel d un parc de vehicule d'occassions a vendre" title="Vente de Vehicules">
                     </a>
                 </div>
                 <h3 class="menuaccueil">Ventes Vehicules</h3>

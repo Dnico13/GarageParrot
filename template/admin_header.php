@@ -6,7 +6,7 @@
 
     <form action="./log/logout.php" method="POST" class="align-self-end col-1 me-2 align-self-center">
         <input type="hidden" name="logout" value="">
-        <button class="btn btn-outline-dark" type="submit">Déconnexion</button>
+        <button class="btn btn-outline-dark" type="submit" onclick=" return deco()">Déconnexion</button>
     </form>
 
 </nav>

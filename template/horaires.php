@@ -23,7 +23,7 @@ $readHoraires = readHoraires($pdo);
 
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btnmodale" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn btnmodale" data-bs-toggle="modal" data-bs-target="#exampleModal" title="Consulter nos horaires d'ouverture">
     Horaires.
 </button>
 

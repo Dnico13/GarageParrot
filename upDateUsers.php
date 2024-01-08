@@ -46,7 +46,7 @@ $id = intval($_GET['id']);
             </div>
             <div class="text-end">
 
-                <button type="submit" class="btn btn-primary" name="submit">Validation des modifications</button>
+                <button onclick=" return mod()" type="submit" class="btn btn-primary" name="submit">Validation des modifications</button>
             </div>
         </form>
 
@@ -61,7 +61,7 @@ $id = intval($_GET['id']);
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <script src="js/alerte.js"></script>
 </body>
 
 </html>

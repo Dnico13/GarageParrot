@@ -1,11 +1,11 @@
 
     <nav class="navbar">
-        <a href="accueil.php"><img src="./asset/iconeGarageParrot.jpg" class="LogoHeader"></a>
+        <a href="accueil.php"><img src="./asset/iconeGarageParrot.jpg" class="LogoHeader" title="Retour à l'accueil"></a>
             <div class="headerMenu">
-                <a class="fontMenu" id="services" href="services.php">- Services -</a>
-                <a class="fontMenu" id="reparations" href="reparations.php">- Réparations -</a>
-                <a class="fontMenu" id="ventes" href="ventes.php">- Vente de véhicules -</a>
-                <a class="fontMenu" id="connexion" href="connexion.php">- Connexion -</a>
+                <a class="fontMenu" id="services" href="services.php" title="Services">- Services -</a>
+                <a class="fontMenu" id="reparations" href="reparations.php" title="Réparations">- Réparations -</a>
+                <a class="fontMenu" id="ventes" href="ventes.php" title="Vente de Véhicules">- Vente de véhicules -</a>
+                <a class="fontMenu" id="connexion" href="connexion.php" title="Connectez-vous">- Connexion -</a>
             </div>
     
 

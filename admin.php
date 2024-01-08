@@ -74,7 +74,7 @@ IF (!isset($_SESSION['role'])){
                                 <!-- integration du boutton suppression directement sur la partie admin-->
                                 <td class="text-center">
                                     <form action="function/delete_Users.php" method="GET">
-                                        <button class="btn btn-secondary " type="submit" value="<?= htmlentities($User['id']); ?>" name="id">Supprimer</button>
+                                        <button onclick=" return del()" class="btn btn-secondary " type="submit" value="<?= htmlentities($User['id']); ?>" name="id">Supprimer</button>
                                     </form>
                                 </td>
 
@@ -134,7 +134,7 @@ IF (!isset($_SESSION['role'])){
                         <td class="text-center">
                             <form action="function/delete_Message.php" method="GET">
                                 <input type="hidden" name="id" value="<?= htmlspecialchars($readMessage['id_message']); ?>">
-                                <button class="btn btn-secondary" type="submit">Supprimer</button>
+                                <button onclick=" return del()" class="btn btn-secondary" type="submit" >Supprimer</button>
                             </form>
                         </td>
                     </tr>
@@ -192,7 +192,7 @@ IF (!isset($_SESSION['role'])){
                         <!--<td class="text-center">-->
                             <form action="function/delete_Temoignage.php" method="GET">
                                 <input type="hidden" name="id" value="<?= htmlspecialchars($readAvis['id_temoignage']); ?>">
-                                <button class="btn btn-secondary" type="submit">Supprimer</button>
+                                <button onclick=" return del()" class="btn btn-secondary" type="submit">Supprimer</button>
                             </form>
                         </td>
                     </tr>
@@ -237,7 +237,7 @@ IF (!isset($_SESSION['role'])){
                         <td class="text-center">
                             <form action="function/delete_Service.php" method="GET">
                                 <input type="hidden" name="id" value="<?= htmlspecialchars($readService['id_service']); ?>">
-                                <button class="btn btn-secondary" type="submit">Supprimer</button>
+                                <button onclick=" return del()" class="btn btn-secondary" type="submit">Supprimer</button>
                             </form>
 
                         </td>
@@ -281,7 +281,7 @@ IF (!isset($_SESSION['role'])){
                         <td class="text-center">
                             <form action="./function/delete_Reparation.php" method="GET">
                                 <input type="hidden" name="id" value="<?= htmlspecialchars($readReparation['id_reparation']); ?>">
-                                <button class="btn btn-secondary" type="submit">Supprimer</button>
+                                <button onclick=" return del()" class="btn btn-secondary" type="submit">Supprimer</button>
                             </form>
                         </td>
                     </tr>
@@ -386,7 +386,7 @@ IF (!isset($_SESSION['role'])){
                         <td class="text-center">
                             <form action="function/delete_Car.php" method="GET">
                                 <input type="hidden" name="Id" value="<?= htmlspecialchars($listCar['id_voitures']); ?>">
-                                <button class="btn btn-secondary" type="submit">Supprimer</button>
+                                <button onclick=" return del()" class="btn btn-secondary" type="submit">Supprimer</button>
                             </form>
                         </td>
                     </tr>
@@ -445,7 +445,7 @@ IF (!isset($_SESSION['role'])){
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <script src="js/alerte.js"></script>
 </body>
 
 </html>

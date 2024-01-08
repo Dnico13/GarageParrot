@@ -1,23 +1,21 @@
 <?php
-require_once '../pdo.php';
+// Connexion à la base de données
+require_once 'pdo.php';
 
-function supprimer($id) {
-  // Affiche la boîte de confirmation
-  $resultat = confirm("Voulez-vous vraiment supprimer cet élément ?");
+// Requête SQL pour récupérer toutes les informations de la table "ma_table"
+$query = $pdo-> prepare ("SELECT * FROM voitures ORDER BY prix DESC ");
+$query -> execute();
 
-  // Si l'utilisateur clique sur "Oui", la suppression est effectuée
-  if ($resultat) {
-    // Code de suppression
-  }
-}
+// Récupération des résultats
+$results = $query->fetchAll(PDO::FETCH_ASSOC);
 
+// Encodage des résultats en JSON
+$json = json_encode($results);
 
-
-
-
-
-
-
+// Envoi des résultats
+header('Content-Type: application/json');
+echo $json;
+?>
 
 
 
@@ -28,21 +26,12 @@ function supprimer($id) {
 
 
 
-function deleteMessage($pdo){
-        
-        
-        $Id_Sup= htmlspecialchars($_GET['id']);
-        
-        
 
-        $query  = $pdo->prepare("DELETE FROM `Message`WHERE id_message = :Id_sup");
 
-        $query-> bindParam(':Id_sup' , $Id_Sup);
-        $query->execute();
 
-        
-        
-        header('location: ../admin.php');
-}
 
-deleteMessage($pdo);
+
+
+
+
+

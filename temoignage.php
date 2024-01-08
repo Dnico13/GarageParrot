@@ -2,7 +2,7 @@
 require_once 'pdo.php';
 require_once './function/readTemoignage.php';
 ?>
-<div class="container  d-flex flex-column justify-content-center align-items-center containertemoignage">
+<div class="container  d-flex flex-column justify-content-center align-items-center containertemoignage mb-3">
 
     <div class="col col-md-12 mx-3">
         <h4 class="text-center">Nos Clients vous parlent de nous:</h4>
@@ -22,7 +22,7 @@ require_once './function/readTemoignage.php';
         </p>
     </div>
     <div class="col-md-12 text-end">
-        <button class="btn  btn-sm  buttoncommentaire ">
+        <button class="btn  btn-sm  buttoncommentaire " title="Laissez nous un commentaire.">
             <a class="btncommentaire " href="commentaire.php">
                 Laissez un commentaire.
             </a>
